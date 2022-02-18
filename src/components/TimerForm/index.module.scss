@@ -1,0 +1,21 @@
+.input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btnContainer {
+    display: block;
+    text-align: center;
+    & button {
+        margin-right: 30px;
+    }
+}
+
+.label {
+    font-family: "Roboto Serif", sans-serif;
+}
